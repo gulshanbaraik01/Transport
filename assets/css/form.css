@@ -1,0 +1,51 @@
+body{ background-image:url(../img/2.jpg); 
+	background-size: cover;
+	background-position: center;
+ }
+	
+	#wrapper{
+		background: #e0ebeb;
+		opacity:0.9;
+		list-style:none;
+		margin: 10px 10%;
+		padding:20px;
+	}
+	#wrapper li{
+		display:flex;
+		justify-content: flex-end;
+		padding: 7px 0;
+	}
+	
+	#wrapper li label{
+		flex: 1;
+	}
+	
+	@media screen and (min-width:300px) and (max-width:499px){
+	#wrapper li{
+		flex-direction: column;
+	}
+	#wrapper li input{
+		flex: 3;
+		}
+	}
+	@media screen and (min-width:500px){
+	#wrapper li input{
+		flex: 3;
+		}
+	}
+	@media screen and (min-width:768px){
+	#wrapper li input{
+		flex: 4;
+		}
+	}
+	@media screen and (min-width:992px){
+	#wrapper li input{
+		flex: 6;
+		}
+	}
+	@media screen and (min-width:1200px){
+	#wrapper li input{
+		flex: 8;
+		}
+	}
+	

@@ -1,0 +1,20 @@
+body{ background-color: gray;}
+.admintitle
+{
+	margin-top: 40px;
+	background-color: green;
+	color: brown;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 140px;
+	line-height: 140px;
+}
+.dashboard
+{
+	background-color: #00FFFF;
+	color: red;
+	margin-left: 50px;
+	margin-right: 50px;
+	height: 140px;
+	font-size: 55px;
+}
